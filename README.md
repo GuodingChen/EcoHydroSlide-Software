@@ -25,5 +25,14 @@ Now, all the preliminary work is done and users can start running the model. You
 ./SVeg_100yr_linux  #(for DVeg)
 ```
 
-The outputs (e.g., the soil moisture) will be saved in **<u>Results</u>** folder. 
+Then the model will ask for a project file and users will input:
 
+```bash
+Simu_100yr   #(can be found as Simu_100yr.Project in main path)
+```
+
+
+
+The outputs (e.g., the soil moisture) will be saved in **<u>Results</u>** folder. The typical 
+
+OutDT_SM_20220101
