@@ -13,7 +13,7 @@ TimeIndex = data.final_maxtirx(:,3);
 
 Vegetation_style = ["Bare","Normal","NoVegDynamics"]; % Bare, Normal, NoVegDynamics
 % set the parallel pool
-Parallelism_set = parpool(3);
+Parallelism_set = parpool(25);
 
 for i_vege = 1 : 3%length(Vegetation_style)
 Vegetation_name = Vegetation_style(i_vege);
